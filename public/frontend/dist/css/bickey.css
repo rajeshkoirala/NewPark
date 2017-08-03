@@ -1,0 +1,336 @@
+/*.shopping-cart {
+	float: right;
+	position: relative !important;
+	color: #ababab;
+	padding: 18px 0;
+}
+
+.shopping-cart .fa {
+	font-size: 30px;
+	margin-right: 15px;
+	vertical-align: middle;
+}
+
+.shopping-cart .cart-name {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.shopping-cart .item-name {
+	color: #000;
+}
+
+.shopping-cart .item-price {
+	float: right;
+	color: #000;
+}
+
+.shopping-cart .dropdown-menu {
+	min-width: 250px;
+	right: 0;
+	left: inherit;
+}
+
+.shopping-cart .dropdown-menu li {
+	padding: 15px 15px;
+	border-bottom: 1px solid #ccc;
+}
+
+.shopping-cart .dropdown-menu li:last-child {
+	border-bottom: 0;
+	overflow: hidden;
+}
+
+.shopping-cart .cart-btn {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 6px 12px;
+}
+
+.shopping-cart .view-cart {
+	float: right;
+	background: #1b2d5a;
+	color: #fff;
+}
+
+.shopping-cart .view-cart:hover {
+	background: #32426a;
+	color: #fff;
+}*/
+
+.common-section-one,
+.common-section-two,
+.psdp-section {
+	background: #fff;
+	text-align: center;
+}
+
+.common-section-one {padding: 80px 0 60px;}
+
+.common-section-one .description p {margin-bottom: 30px;}
+
+.common-section-one .description a {color: #001d60;}
+
+.common-section-two {padding-bottom: 60px;}
+
+.common-section-two .description {
+	margin-top: 70px;
+	margin-bottom: 30px;
+	padding: 30px 15px;
+	border: 1px solid rgba(204, 204, 204, 0.5);
+}
+
+.common-section-two .circle{
+	width: 90px;
+	height: 90px;
+	margin: -75px auto 20px;
+	background: #fff;
+	border: 5px solid #1b2d5a;
+	border-radius: 100%;
+	text-align: center;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+.common-section-two .description .circle .fa {
+	width: 80px;
+	height: 80px;
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 28px;
+	color: #1b2d5a;
+	text-align: center;
+}
+
+.common-section-two .description h3,
+.psdp-section .description h3  {
+	margin-bottom: 20px;
+	color: #1b2d5a;
+	font-weight: bold;
+}
+
+.common-section-three {padding: 80px 0;}
+
+.common-section-three .progress {
+	height: 35px;
+	border-radius: 0;
+}
+
+.common-section-three .progress .skill {
+	font-size: 12px;
+	font-style: normal;
+	line-height: 35px;
+	padding: 0;
+	margin: 0 0 0 20px;
+	font-weight: bold;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.common-section-three .progress .skill a {color: #fff;}
+
+.common-section-three .progress .skill .val {
+	float: right;
+	font-style: normal;
+	margin: 0 20px 0 0;
+}
+
+.common-section-three .progress-bar {
+	text-align: left;
+	transition-duration: 3s;
+	color: #0c1427;
+}
+
+.common-section-three .progress-bar-health {background: rgb(4, 114, 13);}
+
+.common-section-three .progress-bar-safety {background: rgb(242, 217, 31);}
+
+.common-section-three .progress-bar-psdp {background: rgb(16, 0, 255);}
+
+.psdp-section {padding: 80px 0 60px;}
+
+.psdp-section p {margin-bottom: 30px;}
+
+.psdp-section .description {
+	margin-top: 40px;
+	margin-bottom: 30px;
+	padding: 30px 15px;
+	border: 1px solid rgba(204, 204, 204, 0.5);
+}
+
+.psdp-section .description p {margin-bottom: 0;}
+
+.psdp-section .description img {
+	margin-bottom: 20px;
+	opacity: 0.8;
+}
+
+.pscs {padding-top: 0;}
+
+.contact-detail {
+	padding: 80px 0;
+	background: #fff;
+}
+
+.map-wrapper iframe {
+	width: 100%;
+	height: 300px;
+	pointer-events: none;
+}
+
+.upskill-section,
+.audits-section {
+	background: #fff;
+	padding-bottom: 60px;
+}
+
+.upskill-section .description,
+.audits-section .description {
+	margin-bottom: 30px;
+	padding: 30px 15px;
+	text-align: center;
+	border: 1px solid rgba(204, 204, 204, 0.5);
+}
+
+.upskill-section  .description img,
+.audits-section .description img {
+	margin: 0 auto 20px;
+	display: block;
+}
+
+.upskill-section  .description h3,
+.audits-section .description h3  {
+	display: inline-block;
+	vertical-align: middle;
+	margin-bottom: 20px;
+	color: #1b2d5a;
+	font-weight: bold;
+}
+
+.upskill-section  .description .fa,
+.audits-section  .description .fa {
+	margin-left: 15px;
+	font-size: 20px;
+	color: #1b2d5a;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+
+.separater {
+	position: relative;
+	margin-bottom: 3rem !important;
+}
+
+
+.separater:before {
+	position: absolute;
+	content: '';
+	top: 40px;
+	width: 40px;
+	height: 5px;
+	background: #ababab;
+	border: none;
+	text-indent: -9999px;
+}
+
+.separater:after {
+	content: '';
+	background: #ababab;
+	width: 80px;
+	height: 1px;
+	position: absolute;
+	top: 42px;
+	z-index: 1;
+	left: 49px;
+}
+
+.cd-horizontal-timeline .events-content h2 {
+	font-size: 20px;
+	font-family: robotoregular;
+	color: #383838;
+	font-weight: 100;
+	position: relative;
+	padding: 0 0 60px;
+}
+
+.cd-horizontal-timeline .events-content h2:before {
+	background: #ababab;
+	width: 40px;
+	position: absolute;
+	height: 5px;
+	border: none;
+	content: '';
+	top: 70px;
+}
+
+.cd-horizontal-timeline .events-content h2:after {
+	content: '';
+	background: #ababab;
+	width: 80px;
+	height: 1px;
+	position: absolute;
+	top: 72px;
+	z-index: 1;
+	left: 49px;
+}
+
+.pdf {width: 100%;}
+
+.footer-info {
+	background: #fff;
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+
+.footer-info h2 {
+	font-size: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #ccc;
+}
+
+.footer-info h3 {
+	margin-bottom: 15px;
+}
+
+.footer-info p {margin-bottom: 30px;}
+
+.footer-info ul {
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.footer-info ul li {margin-bottom: 5px;}
+
+.footer-info ul li a {
+	color: #1570a6;
+	font-size: 12px;
+}
+
+.footer-info ul li a:hover {
+	color: #083047;
+	text-decoration: underline;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+	.cd-horizontal-timeline .events-content em {
+		font-size: 1.5rem;
+	}
+}
+
+.cd-horizontal-timeline .events-wrapper::before {
+	left: 0;
+	background-image:none;
+	background-image: none;
+}
+
+.cd-horizontal-timeline .events-wrapper::after {
+	right: 0;
+	background-image:none;
+	background-image: none;
+}
+	.cd-horizontal-timeline .events-content p {
+		font-size: 1.6rem;
+	}

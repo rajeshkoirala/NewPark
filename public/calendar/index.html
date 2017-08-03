@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="shortcut icon" href="favicon.ico">
+	<title>MultiDatesPicker for jQuery UI</title>
+	<meta name="description" content="MDP is a little plugin that enables jQuery UI calendar to manage multiple dates.">
+	<meta name="keywords" content="Multiple Dates Picker, jQuery, jQuery UI, javascript, calendar, Luca Lauretta, dubrox">
+	<meta name="author" content="Luca Lauretta aka dubrox">
+
+	<!-- loads jquery and jquery ui -->
+	<!-- -->
+	<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.11.1.js"></script>
+		<!-->
+		<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+		<script type="text/javascript" src="js/jquery-ui-1.11.1.js"></script>
+		<!-- -->
+		
+		<!-- loads mdp -->
+		<script type="text/javascript" src="jquery-ui.multidatespicker.js"></script>
+		
+
+	<!-- loads some utilities (not needed for your developments) -->
+	<link rel="stylesheet" type="text/css" href="css/mdp.css">
+	<link rel="stylesheet" type="text/css" href="css/prettify.css">
+	<script type="text/javascript" src="js/prettify.js"></script>
+	<script type="text/javascript" src="js/lang-css.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			prettyPrint();
+		});
+	</script>
+
+</head>
+<body>
+	<div id="custom-date-format" class="box"></div>
+	<script>
+		$('#custom-date-format').multiDatesPicker({
+			dateFormat: "y-m-d", 
+			defaultDate:"85-2-19"
+		});
+	</script>
+</body>
+</html>

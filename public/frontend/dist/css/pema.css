@@ -1,0 +1,867 @@
+
+
+
+.e-learning-section, .academy-section, .course-snippets {
+    padding: 80px 0;
+    color: #1b2d5a;
+}
+
+.academy-section {
+    text-align: center;
+}
+
+.e-learning-content h2,
+.e-learning-bottom h2, .academy-content h2 {
+    font-size: 34px;
+    font-weight: 700;
+    padding: 0 0 30px;
+    text-align: center;
+}
+
+.e-learning-content hr, .academy-content hr {
+    background: #ababab;
+    width: 180px;
+    position: relative;
+
+    height: 1px;
+    margin: 0 auto;
+    border: none;
+}
+
+.e-learning-content hr:after, .academy-content hr:after {
+    content: '';
+    background: #1b2d5a;
+    width: 50px;
+    height: 6px;
+    position: absolute;
+    top: -7px;
+    z-index: 1;
+    left: 36%;
+    margin: 4px;
+    border-left: 5px solid #e2e3df;
+    border-right: 5px solid #e2e3df;
+}
+
+.e-learning-details p, .academy-details p {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 30px 10px 0;
+    width: 61%;
+    margin: 0 auto;
+    color: #333;
+}
+
+.academy-details p {
+    width: 80%;
+}
+
+.e-learning-details {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.academy-access {
+    margin: 70px 0 0;
+}
+
+.online-course-access {
+    padding: 49px 0;
+
+    background: #fff;
+    background: #ccc url(../images/slider/slider2.png) no-repeat fixed 0 0/cover;
+}
+
+.online-course-access h3 {
+    font-size: 24px !important;
+    color: #fff;
+    line-height: 2;
+}
+
+.online-course-access h3 i {
+    /*color: #1b2d5a;*/
+}
+
+.access-btn {
+    padding: 15px 33px;
+    background: #1b2d5a;
+    color: #fff;
+    border: 0;
+    border-radius: 0;
+    font-size: 14px;
+}
+
+.access-btn:hover {
+    background: #fff;
+    color: #1b2d5a;
+
+}
+
+.e-learning-bottom {
+    padding: 80px 0 0;
+    text-align: center;
+}
+
+.e-learning-bottom h5 {
+    font-size: 16px;
+    margin: 30px 0;
+}
+
+.e-learning-bottom-content {
+    padding: 40px 0 0;
+}
+
+.bottom-content {
+    border: solid 1px #ccc;
+    /*	padding: 15px;*/
+    /*height: 350px;*/
+    position: relative;
+    background: #eee;
+}
+
+.bottom-content i {
+    font-size: 70px;
+    position: absolute;
+    left: 42%;
+    background: #e2e3df;
+    top: -37px;
+    border-radius: 50%;
+}
+
+.bottom-content h3 {
+    font-size: 24px;
+    padding: 40px 0;
+    color: #333;
+    background: #e8e8e8;
+}
+
+.bottom-content p {
+    padding: 20px;
+    color: #333;
+    height: 230px;
+    overflow: hidden;
+}
+
+/*course snippets*/
+
+.course-snippets img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.course-video {
+    /*border: solid 1px #ccc;
+    box-shadow: 0 0 5px #ccc;*/
+    margin-bottom: 20px;
+    position: relative;
+}
+
+/*.course-video a:hover{
+	opacity: .9;
+}*/
+.course-video h3 {
+    padding: 10px 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+
+.course-video h3 a {
+    color: #1b2d5a;
+}
+
+.course-video h3 a:hover {
+    color: #979caa;
+}
+
+.play-btn {
+    position: absolute;
+    top: 59%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: #000;
+    opacity: .8;
+}
+
+.course-video a:hover {
+    opacity: .9;
+}
+
+.snippet-video {
+    display: block;
+    height: 155px;
+    overflow: hidden;
+    background: #ccc;
+    box-shadow: 0 0 2px #333;
+
+}
+
+.snippets-search form {
+    margin-bottom: 40px;
+    width: 100%;
+    position: relative;
+    border: solid 1px #ccc;
+    color: #333;
+    font-size: 30px;
+}
+
+.snippets-search form input {
+    width: 90%;
+    border: none;
+    background: transparent;
+}
+
+.snippets-search form button {
+    font-size: 33px;
+    position: absolute;
+    color: #ccc;
+    border: none;
+    background: transparent;
+    right: 15px;
+}
+.course-snippets nav#PageNavigation{
+	text-align: center;
+}
+/*buy button*/
+#courses .btn-theme-transparent {
+    background-color: rgba(151, 156, 170, 0.48);
+
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, .3);
+    background: #1b2d5a !important;
+    color: #fff !important;
+    border: none;
+}
+
+#courses .btn-theme-transparent i {
+    padding: 0 0 0 10px;
+}
+
+#courses .btn-theme-transparent:hover {
+    opacity: .9;
+    box-shadow: 0 1px 3px #777;
+}
+
+/*buy button*/
+
+/*courses listng*/
+.rateandprice {
+    border: none !important;
+    padding: 0 !important;
+    display: inline-block !important;
+    margin: 0 !important;
+    position: relative;
+    top: 20px;
+    left: 2px;
+}
+
+.buttonandinclude strong {
+    padding-top: 20px !important;
+    font-size: 16px;
+}
+
+.caption-details .desc {
+    padding: 10px 15px 0px !important;
+}
+
+.caption-details .desc a {
+    color: #1b2d5a;
+}
+
+.caption-details .desc a:hover {
+    color: rgba(27, 45, 90, 0.9);
+}
+
+/*courses listng*/
+
+/*main course page*/
+.main-courses-section .rateandprice {
+    position: static;
+}
+
+.main-courses-section .buttonandinclude strong {
+    padding-top: 0px !important;
+}
+
+/*main course page*/
+
+/*loader button*/
+
+#ajax-grid-load-more {
+    text-align: center !important;
+}
+
+a.btn-load-more {
+    background: #1b2d5a;
+    border: 0;
+    padding: 17px 56px;
+    border-radius: 0;
+    color: #fff;
+    text-align: center;
+}
+
+a.btn-load-more:hover {
+    background: rgba(27, 45, 90, 0.9);
+}
+
+/*loader button*/
+
+@media only screen and (max-width: 991px) {
+    .bottom-content {
+        margin: 0 0 50px;
+    }
+
+    .e-learning-content .access-btn {
+        float: left !important;
+        padding: 10px 20px;
+    }
+
+    .e-learning-details p, .academy-details p {
+
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .bottom-content p {
+
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .snippet-video {
+
+        height: 100px;
+    }
+}
+
+/*checkout page*/
+#payment-wizard img.thumbnail {
+    width: 64px;
+    padding: 2px;
+}
+
+#payment-wizard .media-left, .media > .pull-left {
+    padding-right: 5px;
+    background: #fff;
+}
+
+.btn-remove {
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    font-size: 25px;
+    background: transparent;
+}
+
+.btn-remove:hover {
+    color: indianred;
+}
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+
+    vertical-align: middle;
+}
+
+.table > thead:first-child > tr:first-child > th {
+    background: #ddd;
+
+}
+
+.table tfoot h3 {
+    font-size: 20px;
+}
+
+.media-heading {
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: initial;
+}
+
+.media-heading a:hover {
+    color: #1b2d5a;
+    text-decoration: underline;
+}
+
+#voucher input {
+    border: solid 1px #ccc !important;
+    width: 98% !important;
+
+    position: relative;
+    padding: 0 20px 0 20px !important;
+    transition: all .6s ease !important;
+    height: 40px !important;
+	    margin-left: 0px ;
+
+}
+
+#voucher {
+    /*margin-top: 40px!important;*/
+}
+.btn-remove-cart{
+	background:#d43b3b;
+    color: #fff;
+    padding: 2px 5px;
+    font-size: 12px;
+}
+.btn-remove-cart:hover{
+	background: indianred;
+}
+
+/*
+#voucher input:focus{
+    width:100% !important;
+    }
+*/
+/*#voucher:before{
+	content: '\f02b ';
+    font-family: 'FontAwesome';
+    position: absolute;
+    top: 10px;
+    font-size: 18px;
+   left: 28%;
+    color: #888;
+}*/
+
+#voucher .shopping-cart-coupon {
+    margin: 0 !important;
+    height: 40px !important;
+    border-radius: 0px;
+    border-color: #CCCCCC;
+}
+#voucher .shopping-cart-coupon:hover {
+    margin: 0 !important;
+    height: 40px !important;
+    border-radius: 0px;
+    border-color: #CCCCCC;
+    color: #1b2d5a!important;
+}
+
+.continue-shopping a.btn {
+    background: #1b2d5a;
+    color: #eee;
+    margin: 0 !important;
+	line-height: 3.4;
+    border-radius: 0px !important;
+}
+
+.continue-shopping button:hover {
+    opacity: .9;
+}
+
+.os-global-form .btn:hover {
+    color: #fff !important;
+    border-color: #1b2d5a !important;
+    opacity: .9 !important;
+}
+
+.btn-default:hover {
+    color: #fff !important;
+    background-color: #1b2d5a !important;
+}
+
+#payment-wizard select {
+    color: #888 !important;
+}
+
+/*checkout-page*/
+
+/*Wizard*/
+
+.wizard, .tabcontrol {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+
+.wizard a, .tabcontrol a {
+    outline: 0;
+}
+
+.wizard ul, .tabcontrol ul {
+    list-style: none !important;
+    padding: 0;
+    margin: 0;
+}
+
+.wizard ul > li, .tabcontrol ul > li {
+    display: block;
+    padding: 0;
+}
+
+.wizard > .steps .current-info, .tabcontrol > .steps .current-info {
+    position: absolute;
+    left: -999em;
+}
+
+.wizard > .content > .title, .tabcontrol > .content > .title {
+    position: absolute;
+    left: -999em;
+}
+
+.wizard > .steps {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.wizard.vertical > .steps {
+    display: inline;
+    float: left;
+    width: 30%;
+}
+
+.wizard > .steps .number {
+    font-size: 1.429em;
+}
+
+.wizard > .steps > ul > li {
+    width: 25%;
+}
+
+.wizard > .steps > ul > li, .wizard > .actions > ul > li {
+    float: left;
+	text-align: center;
+}
+
+.wizard.vertical > .steps > ul > li {
+    float: none;
+    width: 100%;
+	
+}
+
+.wizard > .steps a, .wizard > .steps a:hover, .wizard > .steps a:active {
+    display: block;
+    width: auto;
+    margin: 0;
+    padding: 1em 1em;
+    text-decoration: none;
+
+}
+
+.wizard > .steps .disabled a, .wizard > .steps .disabled a:hover, .wizard > .steps .disabled a:active {
+    background: #eee;
+    color: #aaa;
+    cursor: default;
+}
+
+.wizard > .steps .current a, .wizard > .steps .current a:hover, .wizard > .steps .current a:active {
+    background: #526CAD;
+    color: #fff;
+    cursor: default;
+}
+.wizard > .steps > ul > li.current{
+	position: relative;
+}
+.wizard > .steps > ul > li.current:after {
+	position: absolute;
+	content: '';
+	border:solid 24px;
+	border-color: transparent transparent transparent #526cad;
+    top: 0;
+    right: -48px;
+}
+.wizard > .steps > ul > li:first-child.current::before{
+	position: absolute;
+	content: '';
+	border:solid 24px;
+	border-color: transparent transparent transparent transparent;
+    top: 0;
+    right: -48px;
+}
+.wizard > .steps > ul > li:last-child.current::before{
+		position: absolute;
+	content: '';
+	border:solid 24px;
+	border-color: transparent transparent transparent transparent;
+    top: 0;
+    right: -48px;
+}
+.wizard > .steps > ul > li.current:before{
+	position: absolute;
+	content: '';
+	border:solid 24px;
+	border-color: #526cad #526cad #526cad #9aa7c7;
+    top: 0;
+    left: 0px;
+}
+
+
+
+#example-basic-t-0:before {
+    content: '\f07a';
+    font-family: 'FontAwesome';
+    margin-right: 5px;
+}
+
+#example-basic-t-1:before {
+    content: '\f041';
+    font-family: 'FontAwesome';
+    margin-right: 5px;
+}
+
+#example-basic-t-2:before {
+    content: '\f09d';
+    font-family: 'FontAwesome';
+    margin-right: 5px;
+}
+
+.current-info, .number {
+    display: none;
+}
+
+.wizard > .steps .done a, .wizard > .steps .done a:hover, .wizard > .steps .done a:active {
+    background:#9AA7C7;
+    color: #fff;
+}
+/*validation error*/
+.wizard > .steps .error a, .wizard > .steps .error a:hover, .wizard > .steps .error a:active {
+    background: #d43b3b !important;
+    color: #fff;
+}
+.wizard > .steps > ul > li.error:after {
+  
+    border-color: transparent transparent transparent #d43b3b !important;
+}
+
+.wizard > .steps > ul > li.error:before {
+   
+    border-color: #d43b3b #d43b3b #d43b3b #9aa7c7 !important;
+   
+}
+
+.wizard > .content > .body label.error {
+    color: #d43b3b !important;
+    display: inline-block !important;
+   background: transparent !important;
+    position: relative !important;
+   
+    top: 80px !important;
+  
+}
+.wizard > .content > .body input.error {
+    
+    border-bottom: solid 1px #d43b3b !important;
+}
+/*validation error*/
+
+.wizard > .content {
+
+    display: block;
+    margin: 12px 0;
+    /*min-height: 35em;*/
+    overflow: hidden;
+    position: relative;
+    width: auto;
+
+}
+
+.wizard.vertical > .content {
+    display: inline;
+    float: left;
+    margin: 0 2.5% .5em 2.5%;
+    width: 65%;
+}
+
+.wizard > .content > .body {
+    /*float: left;*/
+    /*position: absolute;*/
+    /*width: 95%;*/
+    /*height: 95%;*/
+    /*padding: 0 !important;*/
+
+}
+
+.wizard > .content > .body ul {
+    list-style: disc !important;
+}
+
+.wizard > .content > .body ul > li {
+    display: list-item;
+}
+
+.wizard > .content > .body > iframe {
+    border: 0 none;
+    width: 100%;
+    height: 100%;
+}
+
+.wizard > .content > .body input {
+    display: block;
+    border: none !important;
+    margin: 0 !important;
+}
+
+.wizard > .content > .body input[type="checkbox"] {
+    display: inline-block;
+}
+
+
+
+.wizard > .content > .body label {
+    display: inline-block;
+    margin-bottom: .5em;
+}
+
+
+.wizard > .actions {
+    position: relative;
+    display: block;
+    text-align: right;
+    width: 100%;
+}
+
+.wizard.vertical > .actions {
+    display: inline;
+    float: right;
+    margin: 0 2.5%;
+    width: 95%;
+}
+
+.wizard > .actions > ul {
+    display: inline-block;
+    text-align: right;
+    /*margin-right: 50px;*/
+}
+
+.wizard > .actions > ul > li {
+    margin: 0 .5em;
+}
+
+.wizard.vertical > .actions > ul > li {
+    margin: 0 0 0 1em;
+}
+
+.wizard > .actions a, .wizard > .actions a:hover, .wizard > .actions a:active {
+    background: #103157;
+    color: #fff;
+    display: block;
+    padding: 0.6em 3em;
+    text-decoration: none;
+
+}
+
+.wizard > .actions .disabled a, .wizard > .actions .disabled a:hover, .wizard > .actions .disabled a:active {
+    background: #ccc;
+    color: #aaa;
+}
+
+.wizard > .loading {
+}
+
+.wizard > .loading .spinner {
+}
+
+.tabcontrol > .steps {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.tabcontrol > .steps > ul {
+    position: relative;
+    margin: 6px 0 0 0;
+    top: 1px;
+    z-index: 1;
+}
+
+.tabcontrol > .steps > ul > li {
+    float: left;
+    margin: 5px 2px 0 0;
+    padding: 1px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.tabcontrol > .steps > ul > li:hover {
+    background: #edecec;
+    border: 1px solid #bbb;
+    padding: 0;
+}
+
+.tabcontrol > .steps > ul > li.current {
+    background: #fff;
+    border: 1px solid #bbb;
+    border-bottom: 0 none;
+    padding: 0 0 1px 0;
+    margin-top: 0;
+}
+
+.tabcontrol > .steps > ul > li > a {
+    color: #5f5f5f;
+    display: inline-block;
+    border: 0 none;
+    margin: 0;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.tabcontrol > .steps > ul > li > a:hover {
+    text-decoration: none;
+}
+
+.tabcontrol > .steps > ul > li.current > a {
+    padding: 15px 30px 10px 30px;
+}
+
+.tabcontrol > .content {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 35em;
+    overflow: hidden;
+    border-top: 1px solid #bbb;
+    padding-top: 20px;
+}
+
+.tabcontrol > .content > .body {
+    float: left;
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    padding: 2.5%;
+}
+
+.tabcontrol > .content > .body ul {
+    list-style: disc !important;
+}
+
+.tabcontrol > .content > .body ul > li {
+    display: list-item;
+}
+
+@media (max-width: 600px) {
+    .wizard > .steps > ul > li {
+        width: 50%;
+    }
+
+    .wizard > .steps a, .wizard > .steps a:hover, .wizard > .steps a:active {
+        margin-top: .5em;
+    }
+
+    .wizard.vertical > .steps, .wizard.vertical > .actions {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+
+    .wizard.vertical > .content {
+        display: block;
+        float: none;
+        margin: 0 .5em .5em;
+        width: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .wizard > .steps > ul > li {
+        width: 100%;
+    }
+}

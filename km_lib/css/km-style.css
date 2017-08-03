@@ -1,0 +1,122 @@
+.km-btn-section-clone {
+    float: right;
+    background: #3e863e;
+    border: none;
+    color: white;
+    cursor: hand;
+    border-radius: 15px;
+    position: relative;
+    margin: -32px 1px;
+    clear: both;
+}
+
+.km-btn-section-clone:active,
+.km-btn-section-clone:focus {
+    outline:0;
+    border:none;
+    -moz-outline-style: none;
+}
+
+.km-btn-section-close {
+    float: right;
+    background: rgb(152, 148, 148);
+    border: none;
+    margin: 1px;
+    color: white;
+    cursor: hand;
+    border-radius: 25px;
+    position: relative;
+    text-align: right;
+    margin-top: -16px;
+    margin-right: -19px;
+    display: none;
+}
+
+.km-btn-image-close {
+    background: rgb(152, 148, 148);
+    border: none;
+    color: white;
+    position: absolute;
+    margin-left: -8px;
+    cursor: hand;
+    border-radius: 25px;
+    margin-top: -8px;
+    display: none;
+}
+
+.km-btn-section-close,.km-btn-section-clone:hover {
+    cursor: hand;
+}
+
+.background-highlight {
+    background-color: #f5f5f5;
+    /*padding: 20px;*/
+}
+
+.km-loop-div {
+    padding: 10px;
+    // margin-top: 42px;
+    margin: 40px 0 30px;
+    border: 1px solid lightgray;
+}
+
+.km-loop-div:hover {
+    background-color: #f5f5f5;
+}
+
+.km-loop-div:hover .km-btn-section-close{
+    display: inline-block;
+}
+
+.km-save-message {
+    padding-left: 3px;
+    color: darkgreen;
+}
+
+.km-saving-message {
+    padding-left: 3px;
+    color: green;
+}
+
+.km-image-wrapper-section {
+    /*padding: 15px;*/
+    padding: 8px 0 0;
+}
+
+.km_image_preview_wrapper .km_image_preview:hover .km-btn-image-close {
+    display: inline-block;
+}
+
+.km-btn-image-choose {
+    height: 30px;
+    background: #898994;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: hand;
+}
+
+.km-image-loader {
+    display: inline-block;
+    position:relative;
+    width:40px;
+    height:40px;
+    background-image:url('../images/loading.gif');
+    background-repeat:no-repeat;
+    background-position:center;
+    z-index:10000000;
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+/** Sajan Edit **/
+.all-top-header-background .col-md-4{
+    border-right: 1px solid rgba(221, 221, 221, 0.2);
+    border-bottom: 1px solid rgba(221, 221, 221, 0.2);   
+}
+.all-top-header-background .km_image_preview img{
+    width: 100%;
+}
+.all-top-header-background .form-group {
+    margin-top: 25px;
+}
